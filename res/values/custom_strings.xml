@@ -20,4 +20,8 @@
     <!-- Disable FP Anim -->
     <string name="disable_fingerprint_animation_title">Disable Fingerprint Unlock Animation</string>
     <string name="disable_fingerprint_animation_summary">Disables the animation when unlocking via fingerprint</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>
