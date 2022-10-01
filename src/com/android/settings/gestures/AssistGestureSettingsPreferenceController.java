@@ -57,9 +57,9 @@ public class AssistGestureSettingsPreferenceController extends GesturePreference
 
     @Override
     public int getAvailabilityStatus() {
-        final boolean isSupported = mFeatureProvider.isSupported(mContext);
+        final boolean isSupported = false;
         final boolean isSensorAvailable = mFeatureProvider.isSensorAvailable(mContext);
-        final boolean isAvailable = mAssistOnly ? isSupported : isSensorAvailable;
+        final boolean isAvailable = false;
         Log.d(TAG, "mAssistOnly:" + mAssistOnly + ", isSupported:" + isSupported
                 + ", isSensorAvailable:" + isSensorAvailable);
         return isAvailable ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
