@@ -94,6 +94,15 @@
             settings:keywords="@string/keywords_color_mode"/>
     </PreferenceCategory>
 
+    <!-- Statusbar Settings -->
+    <PreferenceCategory  
+        android:title="@string/status_bar_title">
+        <Preference
+            android:key="statusbar_settings"
+            android:title="@string/status_bar_title"
+            android:fragment="com.android.settings.custom.statusbar.StatusBarSettings" />
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:title="@string/category_name_display_controls">
 
