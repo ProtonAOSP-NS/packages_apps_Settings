@@ -17,4 +17,7 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
+    <!-- Disable FP Anim -->
+    <string name="disable_fingerprint_animation_title">Disable Fingerprint Unlock Animation</string>
+    <string name="disable_fingerprint_animation_summary">Disables the animation when unlocking via fingerprint</string>
 </resources>
